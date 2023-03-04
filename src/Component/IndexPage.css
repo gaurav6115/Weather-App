@@ -21,6 +21,7 @@ input {
 }
 
 .searchBtn {
+  font-size: large;
   margin-left: -505px;
   margin-top: 20px;
   width: 250px;

@@ -12,7 +12,7 @@ const IndexPage = () => {
   };
 
   let searchedValue = value.toLowerCase().split(" ").join("+");
-  console.log(searchedValue);
+  // console.log(searchedValue);
 
   return (
     <div className='homepage'>

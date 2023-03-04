@@ -11,15 +11,17 @@ margin-top: 20px;
 margin-bottom: 30px;
 }
 
+
 .detailHeading {
   margin: 0px;
   font-size: 80px;
 }
 
 .weatherDetail {
+  background-color:rgba(159, 247, 243, 0.398);
   padding: 10px 25px;
   border: 2px solid black;
-  height: 70vh;
+  height: max-content;
 }
 
 .data {

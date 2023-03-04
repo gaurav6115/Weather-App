@@ -1,9 +1,7 @@
 const toogleTemp = (state, action) => {
   switch (action.type) {
-    case "Celsius":
-      return state;
-    case "Fahrenheit":
-      return state;
+    case "UPDATE_STATE":
+      return { ...state, C: action.C, F: action.F };
     default:
       return state;
   }
