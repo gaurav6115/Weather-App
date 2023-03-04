@@ -1,0 +1,27 @@
+* {
+  font-size: 30px;
+}
+
+.weatherDetailContainer {
+  margin: 10px 50px;
+}
+
+select{
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.detailHeading {
+  margin: 0px;
+  font-size: 80px;
+}
+
+.weatherDetail {
+  padding: 10px 25px;
+  border: 2px solid black;
+  height: 70vh;
+}
+
+.data {
+  padding: 10px 0px;
+}
