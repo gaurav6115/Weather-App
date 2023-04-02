@@ -53,7 +53,7 @@ const WeatherPage = () => {
       </select>
       <div className="weatherDetail">
         <img src={weatherData?.current.condition.icon} />
-        <div className="data">Location: {weatherData?.location.name}</div>
+        <div className="data">Location: {weatherData?.location.name} {weatherData?.location.country}</div>
         <div className="data">
           Temperature:
           {type === "C" ? `${store.C} C` : `${store.F} F`}
